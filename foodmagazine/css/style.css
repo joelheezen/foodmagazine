@@ -1,0 +1,54 @@
+#food{
+    border-width: 1px;
+    border-style: solid;
+    display:inline-block;
+    padding: 10px;
+}
+
+#recipe{
+    display:inline-block;
+    margin:auto;
+    width:300px;
+    float: right;
+    position: sticky;
+    top: 0;
+    word-wrap: break-word;
+}
+
+#container{
+    display:inline-grid;
+    grid-template-columns: auto auto ;
+    grid-gap: 10px;
+    max-width: 600px;
+}
+
+body{
+    margin: auto;
+    max-width: 960px;
+}
+
+h1{
+    background-color: orange;
+    padding:40px;
+    color: white;
+    font-size: 5em;
+}
+
+h3{
+    font-size: 2em;
+}
+
+.favorite {
+    background-color:rgb(204, 242, 151);
+    background-image:url("assets/checkmark.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+button {
+    width:300px;
+    height:50px;
+    margin-bottom:10px;
+    background-color: orange;
+    color: white;
+    font-size: 1.5em;
+}
